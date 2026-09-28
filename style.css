@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputField {
+  display: block;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid white;
+  padding: 10px;
+  line-height: 30px;
+  width: 100%;
+}
+
+.checkbox,
+.radioContainer {
+  line-height: 50px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
